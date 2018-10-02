@@ -10,7 +10,7 @@ $token  = "9f5062a71de0157a6cd3238a6825deb1";
 $twilio = new Client($sid, $token);
 
 $message = $twilio->messages
-    ->create("+19175740612", // to
+    ->create("+19173490168", // to
         array(
             "from" => "+19085163288", //from
             "body" => "Hello from George Samuels CS 643 Fall 2018"
